@@ -1,9 +1,10 @@
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #47a4d1, #f0fafa, #71dfc1, #6a56e6);
     background-size: 400% 400%;
     min-height: 100vh;
     animation: gradientBG 15s ease infinite;
 }
+
 
 @keyframes gradientBG {
     0% { background-position: 0% 50%; }
@@ -72,7 +73,7 @@ body {
 }
 
 .list-group-item strong {
-    color: #e73c7e;
+    color: black;
     font-size: 1.1rem;
     min-width: 120px;
     display: inline-block;
@@ -129,7 +130,8 @@ body {
 }
 
 .btn-primary {
-    background: linear-gradient(45deg, #e73c7e, #23a6d5);
+    /* background: linear-gradient(45deg, #e73c7e, #23a6d5); */
+    background: linear-gradient(45deg, #71dfc1, #6a56e6);
     border: none;
     padding: 15px 30px;
     border-radius: 15px;
